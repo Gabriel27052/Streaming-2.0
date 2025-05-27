@@ -1,0 +1,44 @@
+Body{
+    Display:flex;
+   Justify-content:center;
+   align-items:center;
+   background-color: rgb(19, 59, 0);
+}
+
+.contente {
+    display: flex;
+    border: 3px solid rgb(166, 255, 0);
+    border-radius: 5px;
+    background-color: rgb(166, 255, 0);
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+}
+
+
+.talvez {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 495px;
+}
+.tristinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input {
+    width: 170px;
+    height: 20px;
+    margin-top: 5px;
+}
+.abacate {
+    width: 300px;
+    height: 300px;
+}
+#nomezin {
+   font-size: 50px;
+}

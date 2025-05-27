@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contente">
+        <div class="tristinho">
+            <img class="abacate" src="https://images.vexels.com/media/users/3/230873/isolated/preview/afcfb6b009972e5b667603004f898ad9-gradiente-de-abacate-feliz.png">
+        
+        </div>
+        <form class="talvez">
+            <h1 id="nomezin">AVOCADO</h1>
+        <input type="text" placeholder="login" id="login">
+        <input type="password" placeholder="senha" id="senha">
+        <input type="email" placeholder="e-mail" id="e-mail">
+        <input type="tel" placeholder="telefone" id="telefone">
+        <input type="submit" onclick="logar();return false">
+        
+        
+    </form>
+    </div>
+    
+</body>
+<script>
+    function logar(){
+
+        var login= document.getElementById('login').value;
+        var senha=document.getElementById('senha').value;
+        if(login=="admin"&&senha=="admin"){
+            location.href="home/home.html";
+        }else{
+            alert('usuario ou senha incompletos')
+        }
+    }
+</script>
+</html>

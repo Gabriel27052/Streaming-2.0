@@ -1,0 +1,70 @@
+*{
+    font-family: serif;
+}
+body {
+    background-color: rgb(39, 39, 39);
+}
+#banner {
+    height: 50%;
+    width: 100%;
+}
+.recomendação {
+    width:90% ;
+    height:600px ;
+    margin: 0 20px;
+}
+.animes {
+width: 250px;
+height: 325px;
+margin: 0 10px;
+}
+#textinho {
+    font-size: 60px;
+    margin: 30px 10px 30px;
+    color: white;
+}
+#ação {
+    font-size: 30px;
+    margin: 5 15px 5px;
+    color: white;
+}
+#comédia {
+    font-size: 30px;
+    margin: 5 15px 5px;
+    color: white;
+}
+#ficção {
+    font-size: 30px;
+    margin: 5 15px 5px;
+    color: white;
+}
+#ROMANCE {
+    font-size: 30px;
+    margin: 5 15px 5px;
+    color: white;
+}
+#nome {
+    font-size: 50px;
+    color: white;
+}
+.abacate {
+    width: 100px;
+    height: 100px;
+}
+.avocado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#nome {
+    margin-left: 10px;
+}
+#fantasia {
+    font-size: 30px;
+    margin: 5 15px 5px;
+    color: white;
+}
+.conteiner {
+    margin-left: 50px;
+}
